@@ -1,0 +1,50 @@
+{
+  "name": "vuehu",
+  "version": "1.0.0",
+  "description": "Your typical bikesharing app.",
+  "private": true,
+  "scripts": {
+    "serve": "webpack-dev-server --mode development --hot",
+    "build": "webpack --mode production",
+    "lint": "eslint --ext .ts,.tsx,.vue src",
+    "ts": "tsc -p tsconfig.json"
+  },
+  "author": "ajl",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^3.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-vue": "^5.2.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.5.3",
+    "vue-eslint-parser": "^6.0.4",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.2.2",
+    "vue2-google-maps": "^0.10.7"
+  }
+}

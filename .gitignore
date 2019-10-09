@@ -1,0 +1,6 @@
+.build_cache
+.DS_Store
+.env
+.vscode/
+node_modules
+dist/main.js

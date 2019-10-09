@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "./built/",
+    "baseUrl": ".",
+    "strict": true,
+    "noEmit": true,
+    "pretty": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/app/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*"]
+}
